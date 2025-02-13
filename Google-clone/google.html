@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOOGLE-CLONE</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="google.css">
+    <link rel="icon" href="google.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="overlay" id="overlayy"></div>
+        <div class="secondcontainer">
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank">Gmail</a>           
+             <a href="https://www.google.com/photos/about/" target="_blank">Images</a>
+            <div class="Icons"> 
+                <i class="material-icons">science</i>
+                <i class="material-icons ">apps</i>
+                <i class="material-icons icon" id="ic">account_circle</i> 
+            </div>
+        </div>
+
+        <div class="thirdcontainer">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        </div>
+
+        <form class="searchbar">
+            <i class="material-icons icon" id="search-icon">search</i>
+           
+            <input type="text" placeholder="Search Google or type a URL" class="inputt" > 
+            <div class="icon gomm material-icons">mic</div> 
+            <span class="icon image-icon material-icons">image</span> 
+        </form> 
+        <div class="shortcut-container">
+           <div class="shortcut" onclick="notshow()">
+           <button class="shortcut-btn" id="short">+</button>
+            <p class="shortcut-name">Add shortcut</p>
+           </div>
+        </div>
+        <div class="custom">
+            <button id="butt"><i class="fas fa-pencil-alt"></i>customize Chrome</button>
+        </div>
+    </div>
+    <div class="box" id="boxx">
+        <p class="first">Add Shortcut</p>
+        <p>Name:</p>
+        <input type="text" name="" id="input-1">
+        <p>URL:</p>
+        <input type="text" id="input-2">
+        <button onclick="hide()">Cancel</button>
+        <button onclick=" clickkkkk()">Done</button>
+    </div>
+
+    
+
+   
+         
+        
+    <script src="google.js"></script>
+</body>
+</html>
